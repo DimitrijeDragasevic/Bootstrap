@@ -1,0 +1,71 @@
+body
+{
+
+background-color:white;
+padding-top:32px;
+
+}
+.wallpaiper-services
+{
+
+background-image: url("slike/grad-siv.jpg");
+height: 700px;
+
+
+
+}
+.Services-position
+{
+
+padding-top: 70px;
+opacity: 1px;
+font-family: 'Josefin Sans', sans-serif;
+color:grey;
+font-weight: 800;
+
+}
+
+#header
+{
+
+background-image: url("slike/black-and-white-city-man-people-02-darken.jpg");
+background-attachment: fixed;
+height: 700px;
+opacity: 1;
+
+}
+#header-title
+{
+
+color:white ;
+	font-size: 70px;
+	text-align: center;
+	font-weight: 800;
+	position: absolute;
+	top: 25%;
+	margin-left: 34%;
+    border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	padding: 10px;
+	opacity: 1;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#futer
+{
+margin-left: 10%;
+background-clip: white;
+top: 10%;
+padding: 10px;
+font-family:'Raleway', raleway;
+
+
+
+}
+#success_message
+{
+ 
+ display: none;
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="Style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" style="text/css" href="css/style.css" media="screen" title="no title">
+  <link rel="stylesheet" style="text/css" href="css/animate.css" media="screen" title="no title">
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MK</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="Contactform.html">Contact</a></li>
+          <li><a href="Services.html">Services</a></li> 
+          
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- nabvar end-->
+
+  <!--form begins-->
+  <div class="container-fluid">
+
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+      <fieldset>
+
+        <!-- Form Name -->
+        <legend class="text-center">Contact</legend>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">First Name</label>  
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" >Last Name</label> 
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">E-Mail</label>  
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Text input-->
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label">Phone #</label>  
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+              <input name="phone" placeholder="(+381)555-333" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label">Address</label>  
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+              <input name="address" placeholder="Address" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Text input-->
+        
+        <div class="form-group">
+          <label class="col-md-4 control-label">City</label>  
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+              <input name="city" placeholder="city" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">E-mail</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+              <textarea class="form-control" rows="3" name="comment" placeholder="Compose email"></textarea>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <!-- Success message -->
+        <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+
+  </div><!-- /.container -->
+  <div id="futer">
+   <footer>
+    <div class="col-lg-5 col-md-3 col-xs-12">
+      <h4 class="animated fadeInLeft">About us<h4>
+      <div class="animated bounceInUp">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas itaspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui\ratione voluptatem sequi nesciunt.        
+      </div>
+      </div>
+      <div class="col-lg-5 col-md-3 col-xs-12 col-lg-push-1">
+        <h4 class="animated fadeInLeft">Our goal<h4>
+        <div class="animated bounceInUp">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas itaspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui\ratione voluptatem sequi nesciunt
+        </div>
+        </div>
+        
+        
+        
+      </footer>
+    </div>
+  </body>
+  </html>
